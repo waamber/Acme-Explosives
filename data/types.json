@@ -1,0 +1,40 @@
+{
+  "types": [
+    {
+      "id": 0,
+      "category": 0,
+      "name": "Pants",
+      "description": "They cover up your legs!."
+    },
+    {
+      "id": 0,
+      "category": 1,
+      "name": "Shorts",
+      "description": "They cover up your legs...slightly."
+    },
+    {
+      "id": 0,
+      "category": 2,
+      "name": "Skirts",
+      "description": "They don't really cover up much of your legs."
+    },
+    {
+      "id": 1,
+      "category": 0,
+      "name": "T-Shirts",
+      "description": "Just your every day top."
+    },
+    {
+      "id": 1,
+      "category": 1,
+      "name": "Blouses",
+      "description": "Perfect for the professional environment."
+    },
+    {
+      "id": 1,
+      "category": 2,
+      "name": "Tank Tops",
+      "description": "Sun's out, gun's out, BRO!"
+    }
+  ]
+}
