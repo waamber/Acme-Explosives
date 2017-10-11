@@ -1,0 +1,114 @@
+{
+    "products": [
+        {
+            "jeggings": {
+                "id": 0,
+                "type": 0,
+                "name": "Jeggings",
+                "description": "They're leggings, but they look like jeans!"
+            },
+            "cargo_pants": {
+                "id": 0,
+                "type": 0,
+                "name": "Cargo Pants",
+                "description": "Cargo pants are perfect if you're looking for style AND utility."
+            },
+            "high_waisted": {
+                "id": 0,
+                "type": 0,
+                "name": "High Waisted",
+                "description": "Time hop back into the early 90's with some high waisted denim!"
+            },
+            "jorts": {
+                "id": 0,
+                "type": 1,
+                "name": "Jorts",
+                "description": "Shorts, but even better....they're denim..."
+            },
+            "cargo_shorts": {
+                "id": 0,
+                "type": 1,
+                "name": "Cargo Shorts",
+                "description": "Nothing like utility on a hot day."
+            },
+            "bermuda": {
+                "id": 0,
+                "type": 1,
+                "name": "Bermuda Shorts",
+                "description": "Dem some realllly long shorts, girl."
+            },
+            "amish": {
+                "id": 0,
+                "type": 2,
+                "name": "Amish Shirt",
+                "description": "So long, they might as well be pants!"
+            },
+            "body_con": {
+                "id": 0,
+                "type": 2,
+                "name": "Body Con",
+                "description": "That skirt is toooo tight, did your mom let you walk out of the house lookin like that?!"
+            },
+            "summer": {
+                "id": 0,
+                "type": 2,
+                "name": "Summer Skirt",
+                "description": "Perfect on the beach or to chill around the house in."
+            },
+            "v_neck": {
+                "id": 1,
+                "type": 0,
+                "name": "V-Neck",
+                "description": "Comes in many different degrees of deep. If you're feeling fiesty, go for the deepest of v's."
+            },
+            "crew_neck": {
+                "id": 1,
+                "type": 0,
+                "name": "Crew Neck",
+                "description": "Just your average, every day shirt!"
+            },
+            "graphic_tee": {
+                "id": 1,
+                "type": 0,
+                "name": "Graphic Tee",
+                "description": "This is the shirt you wear around to let people know you know your pop culture."
+            },
+            "button_up": {
+                "id": 1,
+                "type": 1,
+                "name": "Button Up",
+                "description": "If you happen to date someone of the same size as yourself, you could totes share button ups!"
+            },
+            "flowy": {
+                "id": 1,
+                "type": 1,
+                "name": "Flowy Blouse",
+                "description": "Very light and breezy. Also too sheer sometimes."
+            },
+            "flowy": {
+                "id": 1,
+                "type": 1,
+                "name": "Flowy Blouse",
+                "description": "Very light and breezy. Also too sheer sometimes."
+            },
+            "cut_off": {
+                "id": 1,
+                "type": 2,
+                "name": "Cut Off Sleeves",
+                "description": "The shirt you wear for all occasions: home, gym, school and sometimes prison."
+            },
+            "spaghetti": {
+                "id": 1,
+                "type": 2,
+                "name": "Spaghetti Strap",
+                "description": "Also known as a cami, and is a closet staple."
+            },
+            "tank": {
+                "id": 1,
+                "type": 2,
+                "name": "Tank Top",
+                "description": "Nothing than a tank top on a hot summer day!"
+            }
+        }
+    ]
+}
