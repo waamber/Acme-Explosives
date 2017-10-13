@@ -3,38 +3,38 @@
     {
       "id": 0,
       "category": 0,
-      "name": "Pants",
-      "description": "They cover up your legs!."
+      "name": "Fire Crackers",
+      "description": "It's fire, that cracks!"
     },
     {
       "id": 0,
       "category": 1,
-      "name": "Shorts",
-      "description": "They cover up your legs...slightly."
+      "name": "Foutains",
+      "description": "They're like water fountains, but with fire and stuff."
     },
     {
       "id": 0,
       "category": 2,
-      "name": "Skirts",
-      "description": "They don't really cover up much of your legs."
+      "name": "Poppers",
+      "description": "They sound scary, but they aren't."
     },
     {
       "id": 1,
       "category": 0,
-      "name": "T-Shirts",
-      "description": "Just your every day top."
+      "name": "Low",
+      "description": "Just your average explosive."
     },
     {
       "id": 1,
       "category": 1,
-      "name": "Blouses",
-      "description": "Perfect for the professional environment."
+      "name": "High",
+      "description": "These could probably blow your socks off."
     },
     {
       "id": 1,
       "category": 2,
-      "name": "Tank Tops",
-      "description": "Sun's out, gun's out, BRO!"
+      "name": "Nuclear",
+      "description": "You dead, bro."
     }
   ]
 }

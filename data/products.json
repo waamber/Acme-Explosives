@@ -1,113 +1,113 @@
 {
     "products": [
         {
-            "jeggings": {
+            "bottle_rockets": {
                 "id": 0,
                 "type": 0,
-                "name": "Jeggings",
-                "description": "They're leggings, but they look like jeans!"
+                "name": "Bottle Rockets",
+                "description": "These are the most boring personal fireworks you can buy."
             },
-            "cargo_pants": {
+            "roman_candle": {
                 "id": 0,
                 "type": 0,
-                "name": "Cargo Pants",
-                "description": "Cargo pants are perfect if you're looking for style AND utility."
+                "name": "Roman Candles",
+                "description": "Ever have a roman candle fight?"
             },
-            "high_waisted": {
+            "sparklers": {
                 "id": 0,
                 "type": 0,
-                "name": "High Waisted",
-                "description": "Time hop back into the early 90's with some high waisted denim!"
+                "name": "Sparklers",
+                "description": "Also boring, used to distract children and send off newly weds."
             },
-            "jorts": {
+            "multi_effect": {
                 "id": 0,
                 "type": 1,
-                "name": "Jorts",
-                "description": "Shorts, but even better....they're denim..."
+                "name": "Multi-Effect Fountains",
+                "description": "It's got multiple effects...duh."
             },
-            "cargo_shorts": {
+            "strobes_flares": {
                 "id": 0,
                 "type": 1,
-                "name": "Cargo Shorts",
-                "description": "Nothing like utility on a hot day."
+                "name": "Strobes and Flares",
+                "description": "Better put some sunglasses on!"
             },
-            "bermuda": {
+            "mortar_mine": {
                 "id": 0,
                 "type": 1,
-                "name": "Bermuda Shorts",
-                "description": "Dem some realllly long shorts, girl."
+                "name": "Mortar Mines",
+                "description": "It kind of looks like a giant campfire!"
             },
-            "amish": {
+            "bang_snap": {
                 "id": 0,
                 "type": 2,
-                "name": "Amish Shirt",
-                "description": "So long, they might as well be pants!"
+                "name": "Bang Snaps",
+                "description": "Throw these at people you hate so they can hate you right back."
             },
-            "body_con": {
+            "booby_traps": {
                 "id": 0,
                 "type": 2,
-                "name": "Body Con",
-                "description": "That skirt is toooo tight, did your mom let you walk out of the house lookin like that?!"
+                "name": "Booby Traps",
+                "description": "Just plain rude."
             },
-            "summer": {
+            "party_popper": {
                 "id": 0,
                 "type": 2,
-                "name": "Summer Skirt",
-                "description": "Perfect on the beach or to chill around the house in."
+                "name": "Party Poppers",
+                "description": "Those lame poppers you use at parties that don't actual give anyone any joy."
             },
-            "v_neck": {
+            "gun_powder": {
                 "id": 1,
                 "type": 0,
-                "name": "V-Neck",
-                "description": "Comes in many different degrees of deep. If you're feeling fiesty, go for the deepest of v's."
+                "name": "Gun Powder",
+                "description": "Used for bullets and such."
             },
-            "crew_neck": {
+            "bombs": {
                 "id": 1,
                 "type": 0,
-                "name": "Crew Neck",
-                "description": "Just your average, every day shirt!"
+                "name": "Bombs",
+                "description": "RUN!"
             },
-            "graphic_tee": {
+            "fireworks": {
                 "id": 1,
                 "type": 0,
-                "name": "Graphic Tee",
-                "description": "This is the shirt you wear around to let people know you know your pop culture."
+                "name": "Fireworks",
+                "description": "If they were considered high explosives, we'd all be dead."
             },
-            "button_up": {
+            "dynamite": {
                 "id": 1,
                 "type": 1,
-                "name": "Button Up",
-                "description": "If you happen to date someone of the same size as yourself, you could totes share button ups!"
+                "name": "Dynamite",
+                "description": "Uses include: catching that pesky road runner and building demolitions."
             },
-            "flowy": {
+            "c_4": {
                 "id": 1,
                 "type": 1,
-                "name": "Flowy Blouse",
-                "description": "Very light and breezy. Also too sheer sometimes."
+                "name": "C-4",
+                "description": "Watch out!"
             },
-            "flowy": {
+            "hydrogen": {
                 "id": 1,
                 "type": 1,
-                "name": "Flowy Blouse",
-                "description": "Very light and breezy. Also too sheer sometimes."
+                "name": "Hydrogen",
+                "description": "Come into contact with this and you're done. BYEEE!"
             },
-            "cut_off": {
+            "atom": {
                 "id": 1,
                 "type": 2,
-                "name": "Cut Off Sleeves",
-                "description": "The shirt you wear for all occasions: home, gym, school and sometimes prison."
+                "name": "Atom Bomb",
+                "description": "We won't have to worry about pollution, because we'll all be dead."
             },
-            "spaghetti": {
+            "kim_jung": {
                 "id": 1,
                 "type": 2,
-                "name": "Spaghetti Strap",
-                "description": "Also known as a cami, and is a closet staple."
+                "name": "The Kim Jung Un",
+                "description": "Mostly a threat, but who knows."
             },
-            "tank": {
+            "stage_radiation": {
                 "id": 1,
                 "type": 2,
                 "name": "Tank Top",
-                "description": "Nothing than a tank top on a hot summer day!"
+                "description": "This weapon is also called Teller Ulam weapons and can be of different types depending upon whether they are fission fusion or fission fusion fission bombs."
             }
         }
     ]
