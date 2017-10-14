@@ -1,4 +1,6 @@
 'use strict';
+const dom = require('./dom');
+
 let category = [];
 let type = [];
 let product = [];
@@ -6,6 +8,11 @@ let product = [];
 const initializer = () => {
   explosiveGetter();
 };
+
+
+$('#fireworks').click(() => {
+  dom.domString(product);
+});
 
 const categoriesJSON = () => {
   return new Promise((resolve, reject) => {
@@ -37,28 +44,48 @@ const productsJSON = () => {
   });
 };
 
+
 const explosiveGetter = () => {
   return categoriesJSON().then((categoryResults) => {//.then()-happens when resolved // .catch()-happens when it rejects
     categoryResults.forEach((categoriesData) => {
       category.push(categoriesData);
-      console.log('categories', category);
+
     });
     return typesJSON();
   }).then((typeResults) => {
     typeResults.forEach((typesData) => {
       type.push(typesData);
-      console.log('types', type);
+
     });
     return productsJSON();
   }).then((productResults) => {
     productResults.forEach((productsData) => {
       product.push(productsData);
-      console.log('products', product);
+
     });
     // makeDinos();  // console.log(dinosaurs);
   });
 };
 
+const getCategories = () => {
+  for (var i = 0; i < type.length; i++) {
+    if (type.id === category.id) {
+      console.log(type);
+    }
+  }
+};
 
-module.exports = { initializer, explosiveGetter };
+const getTypes = () => {
+  return type;
+};
+
+const getProducts = () => {
+  return product;
+};
+
+console.log('categories array', category);
+console.log('types array', type);
+console.log('products array', product);
+
+module.exports = { initializer, explosiveGetter, getCategories, getTypes, getProducts };
 

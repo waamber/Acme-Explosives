@@ -1,114 +1,112 @@
 {
     "products": [
         {
-            "bottle_rockets": {
-                "id": 0,
-                "type": 0,
-                "name": "Bottle Rockets",
-                "description": "These are the most boring personal fireworks you can buy."
-            },
-            "roman_candle": {
-                "id": 0,
-                "type": 0,
-                "name": "Roman Candles",
-                "description": "Ever have a roman candle fight?"
-            },
-            "sparklers": {
-                "id": 0,
-                "type": 0,
-                "name": "Sparklers",
-                "description": "Also boring, used to distract children and send off newly weds."
-            },
-            "multi_effect": {
-                "id": 0,
-                "type": 1,
-                "name": "Multi-Effect Fountains",
-                "description": "It's got multiple effects...duh."
-            },
-            "strobes_flares": {
-                "id": 0,
-                "type": 1,
-                "name": "Strobes and Flares",
-                "description": "Better put some sunglasses on!"
-            },
-            "mortar_mine": {
-                "id": 0,
-                "type": 1,
-                "name": "Mortar Mines",
-                "description": "It kind of looks like a giant campfire!"
-            },
-            "bang_snap": {
-                "id": 0,
-                "type": 2,
-                "name": "Bang Snaps",
-                "description": "Throw these at people you hate so they can hate you right back."
-            },
-            "booby_traps": {
-                "id": 0,
-                "type": 2,
-                "name": "Booby Traps",
-                "description": "Just plain rude."
-            },
-            "party_popper": {
-                "id": 0,
-                "type": 2,
-                "name": "Party Poppers",
-                "description": "Those lame poppers you use at parties that don't actual give anyone any joy."
-            },
-            "gun_powder": {
-                "id": 1,
-                "type": 0,
-                "name": "Gun Powder",
-                "description": "Used for bullets and such."
-            },
-            "bombs": {
-                "id": 1,
-                "type": 0,
-                "name": "Bombs",
-                "description": "RUN!"
-            },
-            "fireworks": {
-                "id": 1,
-                "type": 0,
-                "name": "Fireworks",
-                "description": "If they were considered high explosives, we'd all be dead."
-            },
-            "dynamite": {
-                "id": 1,
-                "type": 1,
-                "name": "Dynamite",
-                "description": "Uses include: catching that pesky road runner and building demolitions."
-            },
-            "c_4": {
-                "id": 1,
-                "type": 1,
-                "name": "C-4",
-                "description": "Watch out!"
-            },
-            "hydrogen": {
-                "id": 1,
-                "type": 1,
-                "name": "Hydrogen",
-                "description": "Come into contact with this and you're done. BYEEE!"
-            },
-            "atom": {
-                "id": 1,
-                "type": 2,
-                "name": "Atom Bomb",
-                "description": "We won't have to worry about pollution, because we'll all be dead."
-            },
-            "kim_jung": {
-                "id": 1,
-                "type": 2,
-                "name": "The Kim Jung Un",
-                "description": "Mostly a threat, but who knows."
-            },
-            "stage_radiation": {
-                "id": 1,
-                "type": 2,
-                "name": "Tank Top",
-                "description": "This weapon is also called Teller Ulam weapons and can be of different types depending upon whether they are fission fusion or fission fusion fission bombs."
-            }
+            "id": 0,
+            "type": 0,
+            "name": "Bottle Rockets",
+            "description": "These are the most boring personal fireworks you can buy."
+        },
+        {
+            "id": 0,
+            "type": 0,
+            "name": "Roman Candles",
+            "description": "Ever have a roman candle fight?"
+        },
+        {
+            "id": 0,
+            "type": 0,
+            "name": "Sparklers",
+            "description": "Also boring, used to distract children and send off newly weds."
+        },
+        {
+            "id": 0,
+            "type": 1,
+            "name": "Multi-Effect Fountains",
+            "description": "It's got multiple effects...duh."
+        },
+        {
+            "id": 0,
+            "type": 1,
+            "name": "Strobes and Flares",
+            "description": "Better put some sunglasses on!"
+        },
+        {
+            "id": 0,
+            "type": 1,
+            "name": "Mortar Mines",
+            "description": "It kind of looks like a giant campfire!"
+        },
+        {
+            "id": 0,
+            "type": 2,
+            "name": "Bang Snaps",
+            "description": "Throw these at people you hate so they can hate you right back."
+        },
+        {
+            "id": 0,
+            "type": 2,
+            "name": "Booby Traps",
+            "description": "Just plain rude."
+        },
+        {
+            "id": 0,
+            "type": 2,
+            "name": "Party Poppers",
+            "description": "Those lame poppers you use at parties that don't actual give anyone any joy."
+        },
+        {
+            "id": 1,
+            "type": 0,
+            "name": "Gun Powder",
+            "description": "Used for bullets and such."
+        },
+        {
+            "id": 1,
+            "type": 0,
+            "name": "Bombs",
+            "description": "RUN!"
+        },
+        {
+            "id": 1,
+            "type": 0,
+            "name": "Fireworks",
+            "description": "If they were considered high explosives, we'd all be dead."
+        },
+        {
+            "id": 1,
+            "type": 1,
+            "name": "Dynamite",
+            "description": "Uses include: catching that pesky road runner and building demolitions."
+        },
+        {
+            "id": 1,
+            "type": 1,
+            "name": "C-4",
+            "description": "Watch out!"
+        },
+        {
+            "id": 1,
+            "type": 1,
+            "name": "Hydrogen",
+            "description": "Come into contact with this and you're done. BYEEE!"
+        },
+        {
+            "id": 1,
+            "type": 2,
+            "name": "Atom Bomb",
+            "description": "We won't have to worry about pollution, because we'll all be dead."
+        },
+        {
+            "id": 1,
+            "type": 2,
+            "name": "The Kim Jung Un",
+            "description": "Mostly a threat, but who knows."
+        },
+        {
+            "id": 1,
+            "type": 2,
+            "name": "Tank Top",
+            "description": "This weapon is also called Teller Ulam weapons and can be of different types depending upon whether they are fission fusion or fission fusion fission bombs."
         }
     ]
 }
