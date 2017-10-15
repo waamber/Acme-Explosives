@@ -5,6 +5,8 @@ const dom = require('./dom');
 let category = [];
 let type = [];
 let product = [];
+let fireworks = [];
+let explosives = [];
 
 const initializer = () => {
   explosiveGetter();
@@ -12,6 +14,7 @@ const initializer = () => {
 
 
 $('#fireworks').click(() => {
+  getCategories();
   dom.domString(product);
 });
 
@@ -61,19 +64,33 @@ const explosiveGetter = () => {
     return productsJSON();
   }).then((productResults) => {
     productResults.forEach((productsData) => {
-      product.push(productsData);
+      for (let key in productsData) {
+        console.log("PRODUCTS", productsData[key]);
+        product.push(productsData[key]);
+
+      }
+
 
     });
-    // makeDinos();  // console.log(dinosaurs);
+    // product.push(productsData);
   });
+
+  // makeDinos();  // console.log(dinosaurs);
+
 };
 
 const getCategories = () => {
-  for (var i = 0; i < type.length; i++) {
-    if (type.id === category.id) {
-      console.log(type);
+  category.forEach(() => {
+    fireworks = [];
+    explosives = [];
+    if (category.id === 'fireworks') {
+      fireworks.push();
+    } else {
+      explosives.push();
     }
-  }
+    console.log(fireworks);
+    console.log(explosives);
+  });
 };
 
 const getTypes = () => {
