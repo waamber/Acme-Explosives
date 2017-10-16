@@ -57,55 +57,55 @@
             },
             "gun_powder": {
                 "id": 1,
-                "type": 0,
+                "type": 3,
                 "name": "Gun Powder",
                 "description": "Used for bullets and such."
             },
             "bombs": {
                 "id": 1,
-                "type": 0,
+                "type": 3,
                 "name": "Bombs",
                 "description": "RUN!"
             },
             "fireworks": {
                 "id": 1,
-                "type": 0,
+                "type": 3,
                 "name": "Fireworks",
                 "description": "If they were considered high explosives, we'd all be dead."
             },
             "dynamite": {
                 "id": 1,
-                "type": 1,
+                "type": 4,
                 "name": "Dynamite",
                 "description": "Uses include: catching that pesky road runner and building demolitions."
             },
             "c4": {
                 "id": 1,
-                "type": 1,
+                "type": 4,
                 "name": "C-4",
                 "description": "Watch out!"
             },
             "hydrogen": {
                 "id": 1,
-                "type": 1,
+                "type": 4,
                 "name": "Hydrogen",
                 "description": "Come into contact with this and you're done. BYEEE!"
             },
             "atom_bomb": {
                 "id": 1,
-                "type": 2,
+                "type": 5,
                 "name": "Atom Bomb",
                 "description": "We won't have to worry about pollution, because we'll all be dead."
             },
             "kim_jung": {
                 "id": 1,
-                "type": 2,
+                "type": 5,
                 "name": "The Kim Jung Un",
                 "description": "Mostly a threat, but who knows."
             },
             "thermo_nuclear": {
                 "id": 1,
-                "type": 2,
+                "type": 5,
                 "name": "Thermo Nuclear",
                 "description": "This weapon is also called Teller Ulam weapons and can be of different types depending upon whether they are fission fusion or fission fusion fission bombs."
             }

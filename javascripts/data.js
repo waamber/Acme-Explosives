@@ -1,21 +1,20 @@
 'use strict';
 const dom = require('./dom');
-
 let category = [];
 let type = [];
 let product = [];
 let fireworks = [];
 let explosives = [];
+let firecrackers = [];
+let poppers = [];
+let fountains = [];
+let low = [];
+let high = [];
+let nuclear = [];
 
 const initializer = () => {
   explosiveGetter();
 };
-
-
-$('#fireworks').click(() => {
-  getCategories();
-  dom.domString(product);
-});
 
 const categoriesJSON = () => {
   return new Promise((resolve, reject) => {
@@ -49,60 +48,75 @@ const productsJSON = () => {
 
 
 const explosiveGetter = () => {
-  return categoriesJSON().then((categoryResults) => {//.then()-happens when resolved // .catch()-happens when it rejects
+  return categoriesJSON().then((categoryResults) => {
     categoryResults.forEach((categoriesData) => {
       category.push(categoriesData);
-
     });
     return typesJSON();
   }).then((typeResults) => {
     typeResults.forEach((typesData) => {
-      type.push(typesData);
+      if (typesData.id === 0) {
 
+        fireworks.push(typesData);
+        typesData.id = category.id;
+      } else {
+        explosives.push(typesData);
+      }
     });
     return productsJSON();
   }).then((productResults) => {
     productResults.forEach((productsData) => {
       for (let key in productsData) {
-        console.log("PRODUCTS", productsData[key]);
-        product.push(productsData[key]);
-
+        let products = productsData[key];
+        if (products.type === 0) {
+          firecrackers.push(products);
+        } else if (products.type === 1) {
+          poppers.push(products);
+        } else if (products.type === 2) {
+          fountains.push(products);
+        } else if (products.type === 3) {
+          low.push(products);
+        } else if (products.type === 4) {
+          high.push(products);
+        } else if (products.type === 5) {
+          nuclear.push(products);
+        }
       }
-
-
     });
-    // product.push(productsData);
-  });
-
-  // makeDinos();  // console.log(dinosaurs);
-
-};
-
-const getCategories = () => {
-  category.forEach(() => {
-    fireworks = [];
-    explosives = [];
-    if (category.id === 'fireworks') {
-      fireworks.push();
-    } else {
-      explosives.push();
-    }
-    console.log(fireworks);
-    console.log(explosives);
   });
 };
 
-const getTypes = () => {
-  return type;
-};
+$('#fireworks').click(() => {
+  dom.domString(fireworks);
+});
 
-const getProducts = () => {
-  return product;
-};
+$('#explosives').click(() => {
+  dom.domString(explosives);
+});
 
-console.log('categories array', category);
-console.log('types array', type);
-console.log('products array', product);
+$('#fountains').click(() => {
+  dom.domString(fountains);
+});
 
-module.exports = { initializer, explosiveGetter, getCategories, getTypes, getProducts };
+$('#firecrackers').click(() => {
+  dom.domString(firecrackers);
+});
+
+$('#poppers').click(() => {
+  dom.domString(poppers);
+});
+
+$('#low').click(() => {
+  dom.domString(low);
+});
+
+$('#high').click(() => {
+  dom.domString(high);
+});
+
+$('#nuclear').click(() => {
+  dom.domString(nuclear);
+});
+
+module.exports = { initializer, explosiveGetter };
 
