@@ -18,7 +18,7 @@ $ grunt
 ```
 
 
-![HomePage](https://imgur.com/ugpcuYO)
-![Fireworks](https://imgur.com/8T32DEq)
-![Explosives](https://imgur.com/WDwtIj6)
+[HomePage](https://i.imgur.com/Mb4wXKf.png)<br>
+[Fireworks](https://i.imgur.com/8T32DEq.png)<br>
+[Explosives](https://i.imgur.com/WDwtIj6.png)
 
