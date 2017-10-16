@@ -5,12 +5,6 @@ let type = [];
 let product = [];
 let fireworks = [];
 let explosives = [];
-let firecrackers = [];
-let poppers = [];
-let fountains = [];
-let low = [];
-let high = [];
-let nuclear = [];
 
 const initializer = () => {
   explosiveGetter();
@@ -46,7 +40,6 @@ const productsJSON = () => {
   });
 };
 
-
 const explosiveGetter = () => {
   return categoriesJSON().then((categoryResults) => {
     categoryResults.forEach((categoriesData) => {
@@ -55,33 +48,23 @@ const explosiveGetter = () => {
     return typesJSON();
   }).then((typeResults) => {
     typeResults.forEach((typesData) => {
-      if (typesData.id === 0) {
-
-        fireworks.push(typesData);
-        typesData.id = category.id;
-      } else {
-        explosives.push(typesData);
-      }
+      type.push(typesData);
     });
     return productsJSON();
   }).then((productResults) => {
     productResults.forEach((productsData) => {
       for (let key in productsData) {
         let products = productsData[key];
-        if (products.type === 0) {
-          firecrackers.push(products);
-        } else if (products.type === 1) {
-          poppers.push(products);
-        } else if (products.type === 2) {
-          fountains.push(products);
-        } else if (products.type === 3) {
-          low.push(products);
-        } else if (products.type === 4) {
-          high.push(products);
-        } else if (products.type === 5) {
-          nuclear.push(products);
+        if (products.id === 0) {
+          products.categories = 'Fireworks';
+          fireworks.push(products);
+        } else {
+          products.categories = 'Explosives';
+          explosives.push(products);
         }
+        product.push(products);
       }
+      console.log('products with category', product);
     });
   });
 };
@@ -91,31 +74,7 @@ $('#fireworks').click(() => {
 });
 
 $('#explosives').click(() => {
-  dom.domString(explosives);
-});
-
-$('#fountains').click(() => {
-  dom.domString(fountains);
-});
-
-$('#firecrackers').click(() => {
-  dom.domString(firecrackers);
-});
-
-$('#poppers').click(() => {
-  dom.domString(poppers);
-});
-
-$('#low').click(() => {
-  dom.domString(low);
-});
-
-$('#high').click(() => {
-  dom.domString(high);
-});
-
-$('#nuclear').click(() => {
-  dom.domString(nuclear);
+  dom.domString(product);
 });
 
 module.exports = { initializer, explosiveGetter };
