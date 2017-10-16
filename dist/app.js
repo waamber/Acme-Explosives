@@ -65,17 +65,18 @@ const explosiveGetter = () => {
         }
         product.push(products);
       }
-      console.log('products with category', product);
     });
   });
 };
 
 $('#fireworks').click(() => {
   dom.domString(fireworks);
+  $('.heading').addClass('hidden');
 });
 
 $('#explosives').click(() => {
-  dom.domString(product);
+  dom.domString(explosives);
+  $('.heading').addClass('hidden');
 });
 
 module.exports = { initializer, explosiveGetter };
@@ -88,13 +89,13 @@ const data = ('./data');
 const domString = (products) => {
   products.forEach((product) => {
     var domString = '';
-    domString += `<div class='panel panel-default'>`;
-    domString += `<div class="panel-heading">`;
-    domString += `<h1 class='panel-title'>${product.categories}</h1>`;
+    domString += `<div class='col-md-3 card'>`;
+    domString += `<div class="card-heading">`;
+    domString += `<h5 class='card-title'>${product.categories}</h4>`;
     domString += `</div>`;
-    domString += `<div class='panel-body'>`;
-    domString += `<h1>${product.name}</h1>`;
-    domString += `<p>${product.description}</p>`;
+    domString += `<div class='card-body'>`;
+    domString += `<div><h1>${product.name}</h1></div>`;
+    domString += `<p>${product.description}</p> `;
     domString += `<div>`;
     domString += `</div>`;
     printToDom(domString);

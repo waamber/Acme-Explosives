@@ -64,17 +64,18 @@ const explosiveGetter = () => {
         }
         product.push(products);
       }
-      console.log('products with category', product);
     });
   });
 };
 
 $('#fireworks').click(() => {
   dom.domString(fireworks);
+  $('.heading').addClass('hidden');
 });
 
 $('#explosives').click(() => {
-  dom.domString(product);
+  dom.domString(explosives);
+  $('.heading').addClass('hidden');
 });
 
 module.exports = { initializer, explosiveGetter };
