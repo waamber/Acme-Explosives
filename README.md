@@ -17,4 +17,4 @@ $ npm install
 $ grunt
 ```
 
-![ScreenShot](https://{https://imgur.com/ugpcuYO})
+[Homepage](/images/homepage.jpg){:class="img-responsive"}

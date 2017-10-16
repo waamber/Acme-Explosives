@@ -141,3 +141,8 @@ p {
 .hidden {
   display: none
 }
+
+.img-responsive {
+  height: 300px;
+  width: 400px;
+}
