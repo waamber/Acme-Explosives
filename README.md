@@ -17,4 +17,4 @@ $ npm install
 $ grunt
 ```
 
-![ScreenShot](https://{https://imgur.com/ugpcuYO})
+<img src='https://imgur.com/ugpcuYO'/>
