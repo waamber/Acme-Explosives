@@ -17,4 +17,8 @@ $ npm install
 $ grunt
 ```
 
-[Homepage](/images/homepage.jpg){:class="img-responsive"}
+
+![HomePage](https://imgur.com/ugpcuYO)
+![Fireworks](https://imgur.com/8T32DEq)
+![Explosives](https://imgur.com/WDwtIj6)
+
