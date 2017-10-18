@@ -70,11 +70,13 @@ const explosiveGetter = () => {
 };
 
 $('#fireworks').click(() => {
+  $('#boom').empty();
   dom.domString(fireworks);
   $('.heading').addClass('hidden');
 });
 
 $('#explosives').click(() => {
+  $('#boom').empty();
   dom.domString(explosives);
   $('.heading').addClass('hidden');
 });
